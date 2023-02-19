@@ -4,7 +4,7 @@
 */
 #include <stdio.h>
 /**
-* main - starinnt of the program
+* @main() - starinnt of the program
 * Description: prints "with proper grammar, but the outcome is a piece of art,
 *
 * Return:
