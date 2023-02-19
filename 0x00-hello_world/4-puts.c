@@ -13,7 +13,8 @@
  */
 int main(void)
 {
+/*calling the puts funtion*/
 	puts("\"Programming is like building a multilingual puzzle");
-
+/*returns zero meaning execution was true*/
 	return (0);
 }
