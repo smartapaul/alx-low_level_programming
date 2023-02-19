@@ -9,13 +9,12 @@
  * Description: prints "Programming is like building a multilingual puzzle
  *
  *  Return: zero
+ *  ruturn - gives zero
+ *  Description: Always return if true
  */
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-/**
- * always return zero when true
- */
 	return (0);
 }
