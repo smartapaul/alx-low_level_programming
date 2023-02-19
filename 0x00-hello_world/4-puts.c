@@ -2,13 +2,18 @@
  * File: 4-puts.c
  * Auth: Paul Wahome <smarterpaul@gmail.com>
  */
-#include<stdio.h>
-/*calling funtion main*/
+
+#include <stdio.h>
+
+/**
+ * main - Prints "Programming is like building a multilingual
+ *                puzzle, followed by a new line.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-/* initializing string to call with puts function*/
-	char mystr[] = "\"Programming is like building a multilingual puzzle\n"; 
-/*writing string to stdout*/
-	puts(mystr);
+	puts("\"Programming is like building a multilingual puzzle");
+
 	return (0);
 }
