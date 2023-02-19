@@ -7,7 +7,8 @@
 * main - starinnt of the program
 * Description: prints "with proper grammar, but the outcome is a piece of art,
 *
-* Return:0 for success
+* Return:
+* 0 - OK
 */
 int main(void)
 {
