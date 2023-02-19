@@ -3,18 +3,26 @@
  * Auth: Paul Wahome <smarterpaul@gmail.com>
  */
 
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- * main - Prints "Programming is like building a multilingual
- *                puzzle, followed by a new line.
- *
- * Return: Always 0.
+ * calling funtion main
+ *Description: main fuction is the entry point for our program
  */
 int main(void)
+
 {
-/*calling the puts funtion*/
-	puts("\"Programming is like building a multilingual puzzle");
-/*returns zero meaning execution was true*/
-	return (0);
+/**puts - initializing string to call with puts function
+*
+*Description: initializes mystr fuction.
+*/
+        char mystr[] = "\"Programming is like building a multilingual puzzle\n";
+/**writing string to stdout
+* put calls mystr function value
+*/
+        puts(mystr);
+/**
+*Always return zero
+*/
+        return (0);
 }
