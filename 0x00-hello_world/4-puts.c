@@ -1,13 +1,14 @@
 /**
- * File: 4-puts.c
+ * File: four-puts.c
  * Auth: Paul Wahome <smarterpaul@gmail.com>
  */
 #include <stdio.h>
 
 /**
  * main - starinnt of the program
- * Description: prints "Programming is like building a multilingual puzzle"
- * Return: 0
+ * Description: prints "Programming is like building a multilingual puzzle
+ *
+ *  Return: zero
  */
 
 int main(void)
