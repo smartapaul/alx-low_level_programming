@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * results - checks for checks for a digit (0 through 9).
+ * mul - checks for checks for a digit (0 through 9).
  * @a: a - Variable
  * @b: b - variable
  * Return: Always 0.
  */
-int results(int a, int b)
+int mul(int a, int b)
 {
-int results;
+int mul;
 
-results = a * b;
+mul = a * b;
 
-return (results);
+return (mul);
 }
 
