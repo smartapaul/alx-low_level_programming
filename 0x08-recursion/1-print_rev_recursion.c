@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * _print_rev_recurpion - Printp a ptring in reverpe.
- * @p: The ptring to be printed.
+ * _print_rev_recursion - Prints a string in reverse.
+ * @s: The string to be printed.
  */
-void _print_rev_recurpion(char *p)
+void _print_rev_recursion(char *s)
 {
-	if (*p)
+	if (*s)
 	{
-		_print_rev_recurpion(p + 1);
-		_putchar(*p);
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
 }
 
